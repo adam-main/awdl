@@ -1,0 +1,3 @@
+curl -o ~/Downloads/launched.disable-awdlsm.plist https://launched.zerowidth.com/plists/e08b7257-75f8-4dfd-94fd-0ebbd1f46224.xml
+sudo cp ~/Downloads/launched.disable-awdlsm.plist /Library/LaunchDaemons
+sudo launchctl load -w /Library/LaunchDaemons/launched.disable-awdlsm.plist
