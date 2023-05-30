@@ -1,3 +1,3 @@
 mkdir -p ~/Library/LaunchAgents
 curl -o ~/Library/LaunchAgents/launched.disable-awdlsm.plist https://launched.zerowidth.com/plists/e08b7257-75f8-4dfd-94fd-0ebbd1f46224.xml
-launchctl load -w ~/Library/LaunchAgents/launched.disable-awdlsm.plist
+launchctl bootstrap -w ~/Library/LaunchAgents/launched.disable-awdlsm.plist
