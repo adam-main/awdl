@@ -1,4 +1,4 @@
 mkdir -p ~/Library/LaunchAgents
-curl -o ~/Library/LaunchAgents/launched.unhook-awdl.plist https://launched.zerowidth.com/plists/de50ca6f-8283-451c-a0ba-85d08db1c281.xml
+curl -o ~/Library/LaunchAgents/launched.unhook-awdl.plist https://raw.githubusercontent.com/adam-main/awdl/main/awdl.xml
 sudo cp ~/Library/LaunchAgents/launched.unhook-awdl.plist /Library/LaunchDaemons
 sudo launchctl load -w /Library/LaunchDaemons/launched.unhook-awdl.plist
